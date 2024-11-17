@@ -1,0 +1,14 @@
+{
+    "admin.": "0",
+    "blue-collar": "1",
+    "entrepreneur": "2",
+    "housemaid": "3",
+    "management": "4",
+    "retired": "5",
+    "self-employed": "6",
+    "services": "7",
+    "student": "8",
+    "technician": "9",
+    "unemployed": "10",
+    "unknown": "11"
+}

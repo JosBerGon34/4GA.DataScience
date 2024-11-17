@@ -1,0 +1,10 @@
+{
+    "basic.4y": "0",
+    "basic.6y": "1",
+    "basic.9y": "2",
+    "high.school": "3",
+    "illiterate": "4",
+    "professional.course": "5",
+    "university.degree": "6",
+    "unknown": "7"
+}
