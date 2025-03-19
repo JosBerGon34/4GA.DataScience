@@ -1,6 +1,10 @@
 {
     "workbench.startupEditor": "readme",
     "workbench.editorAssociations": {
-        "*.md": "vscode.markdown.preview.editor"
+        "*.md": "vscode.markdown.preview.editor",
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.py": "default",
+        "*.db": "default",
+        "*.html": "sqlite-viewer.option"
     }
 }
