@@ -29,7 +29,6 @@ psutil==7.0.0
 greenlet==3.1.1
 SQLAlchemy==2.0.39
 PyMySQL==1.1.1
-pywin32==310
 opencv-python==4.11.0.86
 asttokens==3.0.0
 executing==2.2.0
