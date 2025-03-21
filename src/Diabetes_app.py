@@ -66,3 +66,4 @@ if st.button("Predict"):
 if st.button("Reset"):
     reset_values()
     st.experimental_rerun()
+#Si quieres probar la aplicacion en local desde github, ademas de instalar la lista de requeriments, tendras que instalar el pywin==3.10
