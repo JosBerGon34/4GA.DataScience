@@ -2,8 +2,8 @@ import streamlit as st
 from pickle import load
 #Visitad url de streamlit: mod27jbg.streamlit.app
 #Cargar el modelo
-model = load(open("C:/Users/Josue/4GA.DataScience/models/3c_G_MD4_MF8_MSL4_MSS7.sav", "rb"))
-
+#model = load(open("C:/Users/Josue/4GA.DataScience/models/3c_G_MD4_MF8_MSL4_MSS7.sav", "rb"))
+model = load(open("3c_G_MD4_MF8_MSL4_MSS7.sav", "rb"))
 #Variables objetivo y predictoras
 target_var = 'Outcome'
 predict_var1 = 'Pregnancies'
