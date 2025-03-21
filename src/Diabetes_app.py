@@ -19,7 +19,7 @@ class_dict = {
     "1": "Diabetes"
 }
 
-#Título de la aplicación
+#Título de la aplicación:
 st.title("Diabetes Prediction")
 
 #Valores iniciales de las barras deslizantes
