@@ -1,9 +1,0 @@
-scikit-learn>=1.4.0  # Asegúrate de usar la versión exacta que uses al reentrenar
-joblib>=1.3.2         # Asegúrate de usar la versión exacta que uses al reentrenar
-numpy>=1.26.4
-pandas>=2.2.0
-streamlit>=1.31.1      # Si usas streamlit
-altair>=5.5.0         # Si usas altair
-matplotlib>=3.8.0    # Si usas matplotlib
-seaborn>=0.13.0       # Si usas seaborn
-# Agrega aquí cualquier otra librería que uses
