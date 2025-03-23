@@ -1,0 +1,4 @@
+Mejor modelo: ExtraTreesRegressor
+R-cuadrado: 0.1165829176858123
+Número de características: 13
+Características: ['pplhlp', 'ppltrst', 'lawobey', 'stfgov', 'trstlgl', 'trstplc', 'trstplt', 'trstprl', 'trstprt', 'trstun', 'trstsci', 'happy', 'cntrytype']
