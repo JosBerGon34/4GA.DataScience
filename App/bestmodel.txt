@@ -1,4 +1,0 @@
-Mejor modelo: GradientBoostingRegressor
-R-cuadrado: 0.10845257294089672
-Número de características: 10
-Características: ['stfgov', 'trstplt', 'trstprl', 'trstprt', 'cntrytype', 'cluster', 'trst_happy', 'stfgov_mmx', 'trstprl_mmx', 'trstprt_mmx']
