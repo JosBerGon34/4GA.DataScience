@@ -1,4 +1,0 @@
-pandas
-lazypredict
-scikit-learn
-scipy
