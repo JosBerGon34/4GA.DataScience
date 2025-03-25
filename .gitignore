@@ -6,5 +6,6 @@ __pycache__
 .venv3
 .venv314
 .venv310
+.venv3129
 .classenv
 configsql.cfg
