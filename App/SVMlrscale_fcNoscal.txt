@@ -1,0 +1,4 @@
+Mejor modelo: SVM
+AUC: 0.6658701918725031
+Número de características: 17
+Características: ['polintr', 'stfdem', 'stfeco', 'stfgov', 'trstep', 'trstlgl', 'trstprl', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'satisf_media', 'satisf_media_factorizada', 'pintfc']
