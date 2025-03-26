@@ -8,5 +8,6 @@ __pycache__
 .venv310
 .venv3129
 .classenv
-.models
+/models
+/raw
 configsql.cfg
