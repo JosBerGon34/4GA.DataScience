@@ -63,3 +63,6 @@ Recall: 0.544921875
 F1-score: 0.40773729411368737
 N�mero de caracter�sticas: 20
 Caracter�sticas: ['ppltrst', 'polintr', 'stfdem', 'stfeco', 'stfgov', 'trstep', 'trstlgl', 'trstplc', 'trstprl', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'confianza_promedio_factorizada', 'satisf_media', 'satisf_media_factorizada', 'pintfc']
+
+------------------------------------------------------------------------------
+

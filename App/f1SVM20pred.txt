@@ -1,8 +1,0 @@
-Mejor modelo: SVM
-AUC: 0.6657526534903975
-Accuracy: 0.544921875
-Precision: 0.5842276695939141
-Recall: 0.544921875
-F1-score: 0.40773729411368737
-Número de características: 20
-Características: ['ppltrst', 'polintr', 'stfdem', 'stfeco', 'stfgov', 'trstep', 'trstlgl', 'trstplc', 'trstprl', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'confianza_promedio_factorizada', 'satisf_media', 'satisf_media_factorizada', 'pintfc']
