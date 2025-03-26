@@ -1,0 +1,65 @@
+Mejor modelo: SVM
+variable lrscale 4fc
+chi scale minmax.
+AUC: 0.6655128495412039
+Accuracy: 0.544921875
+Precision: 0.559275503676969
+Recall: 0.544921875
+F1-score: 0.411087474810554
+N�mero de caracter�sticas: 16
+Caracter�sticas: ['ppltrst', 'polintr', 'stfdem', 'stfeco', 'stfgov', 'trstep', 'trstlgl', 'trstplt', 'trstprl', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'satisf_media']
+
+
+-------------------------------------------------
+
+
+Mejor modelo: SVM
+variable lrscale2_fC 5fc
+chi criterio
+AUC: 0.670898729438401
+Accuracy: 0.442578125
+Precision: 0.3487712030825948
+Recall: 0.442578125
+F1-score: 0.29473438402261687
+N�mero de caracter�sticas: 18
+Caracter�sticas: ['ppltrst', 'polintr', 'stfdem', 'stfeco', 'stfgov', 'trstlgl', 'trstplt', 'trstprl', 'trstprt', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'satisf_media', 'satisf_media_factorizada']
+
+-----------------------------------------------------
+
+Mejor modelo: SVM
+variable lrscale2_fC 5fc
+criterio f1 std scal
+AUC: 0.6642812674565167
+Accuracy: 0.440625
+Precision: 0.3886391129032258
+Recall: 0.440625
+F1-score: 0.28613912231075855
+N�mero de caracter�sticas: 19
+Caracter�sticas: ['polintr', 'stfdem', 'stfeco', 'stfgov', 'trstplt', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'satisf_media', 'satisf_media_factorizada', 'pintfc', 'confianza_promedio_minmax', 'satisf_media_minmax', 'confianza_promedio_std', 'satisf_media_std']
+---------------------------------------
+
+
+Mejor modelo: SVM
+lrscale_fc 4f
+f1 criterio std.
+AUC: 0.6644376653163552
+Accuracy: 0.541015625
+Precision: 0.5470936178432011
+Recall: 0.541015625
+F1-score: 0.39897590913988956
+N�mero de caracter�sticas: 20
+Caracter�sticas: ['polintr', 'stfdem', 'stfeco', 'stfgov', 'trstlgl', 'trstprl', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'satisf_media', 'satisf_media_factorizada', 'pintfc', 'confianza_promedio_minmax', 'satisf_media_minmax', 'confianza_promedio_std', 'satisf_media_std']
+
+----------------------------------------------------------------------------
+
+Mejor modelo: SVM
+criterio f1
+no scaled.
+lrscale_fC 4fc
+AUC: 0.6657526534903975
+Accuracy: 0.544921875
+Precision: 0.5842276695939141
+Recall: 0.544921875
+F1-score: 0.40773729411368737
+N�mero de caracter�sticas: 20
+Caracter�sticas: ['ppltrst', 'polintr', 'stfdem', 'stfeco', 'stfgov', 'trstep', 'trstlgl', 'trstplc', 'trstprl', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'confianza_promedio_factorizada', 'satisf_media', 'satisf_media_factorizada', 'pintfc']

@@ -1,8 +1,10 @@
 Mejor modelo: SVM
+variable lrscale2_fC 5fc
+criterio f1 std scal
 AUC: 0.6642812674565167
 Accuracy: 0.440625
 Precision: 0.3886391129032258
 Recall: 0.440625
 F1-score: 0.28613912231075855
-Número de características: 19
-Características: ['polintr', 'stfdem', 'stfeco', 'stfgov', 'trstplt', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'satisf_media', 'satisf_media_factorizada', 'pintfc', 'confianza_promedio_minmax', 'satisf_media_minmax', 'confianza_promedio_std', 'satisf_media_std']
+Nï¿½mero de caracterï¿½sticas: 19
+Caracterï¿½sticas: ['polintr', 'stfdem', 'stfeco', 'stfgov', 'trstplt', 'imbgeco', 'imwbcnt', 'rlgdgr', 'cntgrp_fc', 'cnt_fc', 'rel3fc', 'confianza_promedio', 'satisf_media', 'satisf_media_factorizada', 'pintfc', 'confianza_promedio_minmax', 'satisf_media_minmax', 'confianza_promedio_std', 'satisf_media_std']
