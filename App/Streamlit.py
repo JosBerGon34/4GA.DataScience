@@ -1,7 +1,8 @@
 import streamlit as st
 import joblib
 import numpy as np
-
+import os
+print(os.getcwd())
 # Nombres de las variables predictoras
 predict_vars = ['lw_pnd', 'ppl', 'imbgeco', 'cntgrp_fc', 'rel3fc', 'pplhlp', 'pplfair', 'ppltrst', 
                 'stfdem', 'stfeco', 'stfgov', 'imwbcnt', 'trstep', 'trstlgl', 'trstplc', 'trstplt', 'trstprl', 
