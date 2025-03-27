@@ -12,3 +12,4 @@ __pycache__
 /raw
 configsql.cfg
 .nuevo_entorno
+.venvxgboost
