@@ -11,9 +11,9 @@ def app():
                     'trstprt', 'trtsci_pnd']
 
    
-    target_vars = ['happy', 'lr4d', 'polintr']
+    target_vars = ['happyfc', 'lr4d', 'polintr']
     models = {
-        'happy': joblib.load("C:/Users/Josue/4GA.Datascience/4GA.DataScience/App/Happy.pkl"), 
+        'happyfc': joblib.load("C:/Users/Josue/4GA.Datascience/4GA.DataScience/App/happy.pkl"), 
         'lr4d': joblib.load("C:/Users/Josue/4GA.Datascience/4GA.DataScience/App/lr4d.pkl"), 
         'polintr': joblib.load("C:/Users/Josue/4GA.Datascience/4GA.DataScience/App/polintr.pkl"), 
     }
@@ -51,11 +51,7 @@ def app():
 
         for target_var in target_vars:
             prediction = models[target_var].predict(input_data)[0]
-            # Aplica la transformación inversa solo a polintr
-            if target_var == 'polintr':
-                prediction = prediction + 1
-            st.write(f"Predicción para {target_var}: {prediction}")
-
+        
     
     if st.button("Resetear"):
         reset_values()
