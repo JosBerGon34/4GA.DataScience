@@ -13,3 +13,4 @@ __pycache__
 configsql.cfg
 .nuevo_entorno
 .venvxgboost
+.venvSVM
