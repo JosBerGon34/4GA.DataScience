@@ -1,0 +1,1899 @@
+Nombres de las columnas:
+- name
+- essround
+- edition
+- proddate
+- idno
+- cntry
+- dweight
+- pspwght
+- pweight
+- anweight
+- prob
+- stratum
+- psu
+- netuse
+- netusoft
+- netustm
+- nwspol
+- nwsppol
+- nwsptot
+- pplfair
+- pplhlp
+- ppltrst
+- rdpol
+- rdtot
+- tvpol
+- tvtot
+- actrolg
+- actrolga
+- badge
+- bctprd
+- bghtprd
+- clsprty
+- contplt
+- cptppol
+- cptppola
+- dclagr
+- dclaid
+- dclcrm
+- dcldef
+- dclenv
+- dclintr
+- dclmig
+- dclwlfr
+- dmcntov
+- dntmny
+- ecohenv
+- etapapl
+- euftf
+- freehms
+- gincdif
+- ginveco
+- hmsacld
+- hmsfmlsh
+- ilglpst
+- implvdm
+- lawobey
+- lrscale
+- mmbprty
+- needtru
+- pbldmn
+- pbldmna
+- pltcare
+- pltinvt
+- polactiv
+- polcmpl
+- poldcs
+- polintr
+- prtdgcl
+- prtyban
+- psppipl
+- psppipla
+- psppsgv
+- psppsgva
+- pstplonl
+- ptcpplt
+- scnsenv
+- sgnptit
+- stfdem
+- stfeco
+- stfedu
+- stfgov
+- stfhlth
+- stflife
+- trstep
+- trstlgl
+- trstplc
+- trstplt
+- trstprl
+- trstprt
+- trstun
+- trstsci
+- vote
+- wrkorg
+- wrkprty
+- imsmetn
+- imdfetn
+- impcntr
+- imbgeco
+- imueclt
+- imwbcnt
+- volunfp
+- lrnobed
+- loylead
+- donprty
+- aesfdrk
+- atchctr
+- atcherp
+- blgetmg
+- brghmef
+- brghmwr
+- brncntr
+- crmvct
+- crvctef
+- crvctwr
+- happy
+- health
+- sclmeet
+- trrprsn
+- trrtort
+- ccnthum
+- wrclmch
+- vteurmmb
+- vteubcmb
+- vteumbgb
+- ablrtr
+- brwmny
+- dvrcdev
+- dvrcdeva
+- edufld
+- edulvla
+- edulvlb
+- edulvlfa
+- edulvlfb
+- edulvlma
+- edulvlmb
+- eduyrs
+- eisced
+- lvgptne
+- lvgptnea
+- impfree
+- impfreea
+- impsafe
+- impsafea
+- ipadvnt
+- ipadvnta
+- ipbhprp
+- ipbhprpa
+- ipcrtiv
+- ipcrtiva
+- ipeqopt
+- ipeqopta
+- ipgdtim
+- ipgdtima
+- iprspot
+- iprspota
+- ipstrgv
+- ipstrgva
+- ipudrst
+- ipudrsta
+
+Estadísticas descriptivas por columna:
+
+Columna: name
+count        177859
+unique           12
+top       ESS6e02_6
+freq          18344
+Name: name, dtype: object
+
+Columna: essround
+count    177859.00000
+mean          5.91179
+std           3.08697
+min           1.00000
+25%           3.00000
+50%           6.00000
+75%           9.00000
+max          11.00000
+Name: essround, dtype: float64
+
+Columna: edition
+count    177859.000000
+mean          3.423805
+std           1.253513
+min           2.000000
+25%           2.300000
+50%           3.200000
+75%           3.700000
+max           6.700000
+Name: edition, dtype: float64
+
+Columna: proddate
+count         177859
+unique             5
+top       23.11.2023
+freq          100137
+Name: proddate, dtype: object
+
+Columna: idno
+count    1.778590e+05
+mean     2.729431e+09
+std      3.013036e+10
+min      1.000000e+00
+25%      2.268000e+03
+50%      1.151900e+04
+75%      5.349050e+04
+max      5.101304e+11
+Name: idno, dtype: float64
+
+Columna: cntry
+count     177859
+unique         9
+top           IE
+freq       24250
+Name: cntry, dtype: object
+
+Columna: dweight
+count    177859.000000
+mean          1.000000
+std           0.279898
+min           0.025100
+25%           0.954039
+50%           1.000000
+75%           1.011972
+max           5.103470
+Name: dweight, dtype: float64
+
+Columna: pspwght
+count    177859.000000
+mean          1.001060
+std           0.417420
+min           0.000750
+25%           0.772895
+50%           0.942444
+75%           1.159434
+max           4.231615
+Name: pspwght, dtype: float64
+
+Columna: pweight
+count    177859.000000
+mean          0.715317
+std           0.703277
+min           0.047563
+25%           0.208328
+50%           0.479563
+75%           0.861833
+max           2.378890
+Name: pweight, dtype: float64
+
+Columna: anweight
+count    145501.000000
+mean          0.721438
+std           0.769390
+min           0.000360
+25%           0.187796
+50%           0.404558
+75%           1.042370
+max           8.132706
+Name: anweight, dtype: float64
+
+Columna: prob
+count    44468.000000
+mean         0.001243
+std          0.003120
+min          0.000042
+25%          0.000240
+50%          0.000529
+75%          0.000848
+max          0.045450
+Name: prob, dtype: float64
+
+Columna: stratum
+count    44468.000000
+mean      1172.686831
+std        816.696447
+min        106.000000
+25%        436.000000
+50%        994.000000
+75%       1831.000000
+max       2710.000000
+Name: stratum, dtype: float64
+
+Columna: psu
+count    44468.000000
+mean     11612.566857
+std       5721.607567
+min        846.000000
+25%       7886.000000
+50%      10968.000000
+75%      15949.250000
+max      21805.000000
+Name: psu, dtype: float64
+
+Columna: netuse
+count    81198.000000
+mean         3.741077
+std          4.433648
+min          0.000000
+25%          0.000000
+50%          4.000000
+75%          7.000000
+max         99.000000
+Name: netuse, dtype: float64
+
+Columna: netusoft
+count    61427.000000
+mean         4.158334
+std          1.454338
+min          1.000000
+25%          4.000000
+50%          5.000000
+75%          5.000000
+max          9.000000
+Name: netusoft, dtype: float64
+
+Columna: netustm
+count    61427.000000
+mean      1776.827242
+std       2786.554823
+min          0.000000
+25%        120.000000
+50%        240.000000
+75%        720.000000
+max       9999.000000
+Name: netustm, dtype: float64
+
+Columna: nwspol
+count    61427.000000
+mean       179.319192
+std        927.779603
+min          0.000000
+25%         30.000000
+50%         60.000000
+75%        105.000000
+max       9999.000000
+Name: nwspol, dtype: float64
+
+Columna: nwsppol
+count    81198.000000
+mean        17.514779
+std         28.284759
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          7.000000
+max         99.000000
+Name: nwsppol, dtype: float64
+
+Columna: nwsptot
+count    81198.000000
+mean         1.652319
+std          4.181357
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          2.000000
+max         99.000000
+Name: nwsptot, dtype: float64
+
+Columna: pplfair
+count    177859.000000
+mean          6.456176
+std           7.168346
+min           0.000000
+25%           5.000000
+50%           6.000000
+75%           8.000000
+max          99.000000
+Name: pplfair, dtype: float64
+
+Columna: pplhlp
+count    177859.000000
+mean          5.451144
+std           5.689033
+min           0.000000
+25%           4.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: pplhlp, dtype: float64
+
+Columna: ppltrst
+count    177859.000000
+mean          5.635610
+std           4.946363
+min           0.000000
+25%           4.000000
+50%           6.000000
+75%           7.000000
+max          99.000000
+Name: ppltrst, dtype: float64
+
+Columna: rdpol
+count    81198.000000
+mean        15.192616
+std         26.399703
+min          0.000000
+25%          1.000000
+50%          2.000000
+75%          5.000000
+max         99.000000
+Name: rdpol, dtype: float64
+
+Columna: rdtot
+count    81198.000000
+mean         3.376795
+std          5.126573
+min          0.000000
+25%          1.000000
+50%          2.000000
+75%          6.000000
+max         99.000000
+Name: rdtot, dtype: float64
+
+Columna: tvpol
+count    116432.000000
+mean          4.292523
+std          12.143030
+min           0.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max          99.000000
+Name: tvpol, dtype: float64
+
+Columna: tvtot
+count    116432.000000
+mean          4.320324
+std           3.612864
+min           0.000000
+25%           3.000000
+50%           4.000000
+75%           6.000000
+max          99.000000
+Name: tvtot, dtype: float64
+
+Columna: actrolg
+count    16890.000000
+mean         4.788869
+std         10.633437
+min          0.000000
+25%          1.000000
+50%          3.000000
+75%          6.000000
+max         99.000000
+Name: actrolg, dtype: float64
+
+Columna: actrolga
+count    61427.000000
+mean         2.192505
+std          1.209077
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: actrolga, dtype: float64
+
+Columna: badge
+count    177859.000000
+mean          1.933031
+std           0.491727
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: badge, dtype: float64
+
+Columna: bctprd
+count    177859.000000
+mean          1.883841
+std           0.575859
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: bctprd, dtype: float64
+
+Columna: bghtprd
+count    15869.000000
+mean         1.810070
+std          0.725649
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: bghtprd, dtype: float64
+
+Columna: clsprty
+count    177859.000000
+mean          1.627744
+std           0.964220
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: clsprty, dtype: float64
+
+Columna: contplt
+count    177859.000000
+mean          1.863448
+std           0.519090
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: contplt, dtype: float64
+
+Columna: cptppol
+count    16890.000000
+mean         4.926229
+std         10.448700
+min          0.000000
+25%          1.000000
+50%          4.000000
+75%          6.000000
+max         99.000000
+Name: cptppol, dtype: float64
+
+Columna: cptppola
+count    61427.000000
+mean         2.180393
+std          1.195995
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: cptppola, dtype: float64
+
+Columna: dclagr
+count    15869.000000
+mean         2.883105
+std          1.405546
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          3.000000
+max          9.000000
+Name: dclagr, dtype: float64
+
+Columna: dclaid
+count    15869.000000
+mean         2.144685
+std          1.717799
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: dclaid, dtype: float64
+
+Columna: dclcrm
+count    15869.000000
+mean         2.102905
+std          1.575688
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: dclcrm, dtype: float64
+
+Columna: dcldef
+count    15869.000000
+mean         2.544584
+std          1.576942
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: dcldef, dtype: float64
+
+Columna: dclenv
+count    15869.000000
+mean         2.395614
+std          1.685103
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: dclenv, dtype: float64
+
+Columna: dclintr
+count    15869.000000
+mean         3.032957
+std          1.860183
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          3.000000
+max          9.000000
+Name: dclintr, dtype: float64
+
+Columna: dclmig
+count    15869.000000
+mean         2.516794
+std          1.658118
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: dclmig, dtype: float64
+
+Columna: dclwlfr
+count    15869.000000
+mean         3.078833
+std          1.319044
+min          1.000000
+25%          3.000000
+50%          3.000000
+75%          3.000000
+max          9.000000
+Name: dclwlfr, dtype: float64
+
+Columna: dmcntov
+count    18344.000000
+mean         8.780037
+std         13.858455
+min          0.000000
+25%          5.000000
+50%          7.000000
+75%          8.000000
+max         99.000000
+Name: dmcntov, dtype: float64
+
+Columna: dntmny
+count    15869.000000
+mean         1.966917
+std          0.617044
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: dntmny, dtype: float64
+
+Columna: ecohenv
+count    15869.000000
+mean         3.245825
+std          1.584961
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: ecohenv, dtype: float64
+
+Columna: etapapl
+count    16890.000000
+mean         5.762463
+std         14.315058
+min          0.000000
+25%          1.000000
+50%          3.000000
+75%          5.000000
+max         99.000000
+Name: etapapl, dtype: float64
+
+Columna: euftf
+count    145465.000000
+mean         10.606111
+std          20.557454
+min           0.000000
+25%           4.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: euftf, dtype: float64
+
+Columna: freehms
+count    177859.000000
+mean          2.250828
+std           1.492197
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: freehms, dtype: float64
+
+Columna: gincdif
+count    177859.000000
+mean          2.240612
+std           1.239523
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: gincdif, dtype: float64
+
+Columna: ginveco
+count    15869.000000
+mean         3.620455
+std          1.555603
+min          1.000000
+25%          3.000000
+50%          4.000000
+75%          4.000000
+max          9.000000
+Name: ginveco, dtype: float64
+
+Columna: hmsacld
+count    61427.000000
+mean         2.727091
+std          1.645389
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          4.000000
+max          9.000000
+Name: hmsacld, dtype: float64
+
+Columna: hmsfmlsh
+count    61427.000000
+mean         4.167809
+std          1.314312
+min          1.000000
+25%          4.000000
+50%          5.000000
+75%          5.000000
+max          9.000000
+Name: hmsfmlsh, dtype: float64
+
+Columna: ilglpst
+count    15869.000000
+mean         2.033146
+std          0.529241
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: ilglpst, dtype: float64
+
+Columna: implvdm
+count    33652.000000
+mean         9.775615
+std          9.597230
+min          0.000000
+25%          8.000000
+50%         10.000000
+75%         10.000000
+max         99.000000
+Name: implvdm, dtype: float64
+
+Columna: lawobey
+count    15869.000000
+mean         2.141093
+std          1.202706
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: lawobey, dtype: float64
+
+Columna: lrscale
+count    177859.000000
+mean         13.733643
+std          24.999800
+min           0.000000
+25%           4.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: lrscale, dtype: float64
+
+Columna: mmbprty
+count    81198.000000
+mean         1.971489
+std          0.381942
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: mmbprty, dtype: float64
+
+Columna: needtru
+count    15869.000000
+mean         2.245699
+std          1.396163
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: needtru, dtype: float64
+
+Columna: pbldmn
+count    148941.000000
+mean          1.951477
+std           0.425300
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: pbldmn, dtype: float64
+
+Columna: pbldmna
+count    28918.000000
+mean         1.966319
+std          0.579687
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: pbldmna, dtype: float64
+
+Columna: pltcare
+count    15869.000000
+mean         2.586489
+std          1.288304
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          3.000000
+max          9.000000
+Name: pltcare, dtype: float64
+
+Columna: pltinvt
+count    15869.000000
+mean         2.425421
+std          1.276126
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: pltinvt, dtype: float64
+
+Columna: polactiv
+count    15869.000000
+mean         2.167433
+std          1.378746
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: polactiv, dtype: float64
+
+Columna: polcmpl
+count    64673.000000
+mean         3.250274
+std          1.280413
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: polcmpl, dtype: float64
+
+Columna: poldcs
+count    64673.000000
+mean         3.051583
+std          1.244296
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: poldcs, dtype: float64
+
+Columna: polintr
+count    177859.000000
+mean          2.637814
+std           0.914501
+min           1.000000
+25%           2.000000
+50%           3.000000
+75%           3.000000
+max           9.000000
+Name: polintr, dtype: float64
+
+Columna: prtdgcl
+count    176265.000000
+mean          4.292440
+std           1.993059
+min           1.000000
+25%           2.000000
+50%           6.000000
+75%           6.000000
+max           9.000000
+Name: prtdgcl, dtype: float64
+
+Columna: prtyban
+count    81198.000000
+mean         2.613919
+std          1.651488
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: prtyban, dtype: float64
+
+Columna: psppipl
+count    16890.000000
+mean         5.224867
+std         12.737659
+min          0.000000
+25%          1.000000
+50%          3.000000
+75%          5.000000
+max         99.000000
+Name: psppipl, dtype: float64
+
+Columna: psppipla
+count    61427.000000
+mean         2.322399
+std          1.149259
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: psppipla, dtype: float64
+
+Columna: psppsgv
+count    16890.000000
+mean         5.563588
+std         13.401832
+min          0.000000
+25%          2.000000
+50%          3.000000
+75%          5.000000
+max         99.000000
+Name: psppsgv, dtype: float64
+
+Columna: psppsgva
+count    61427.000000
+mean         2.383903
+std          1.186283
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: psppsgva, dtype: float64
+
+Columna: pstplonl
+count    61427.000000
+mean         1.871848
+std          0.574437
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: pstplonl, dtype: float64
+
+Columna: ptcpplt
+count    16890.000000
+mean         4.673712
+std         10.707781
+min          0.000000
+25%          1.000000
+50%          3.000000
+75%          5.000000
+max         99.000000
+Name: ptcpplt, dtype: float64
+
+Columna: scnsenv
+count    81198.000000
+mean         2.900786
+std          1.543259
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          4.000000
+max          9.000000
+Name: scnsenv, dtype: float64
+
+Columna: sgnptit
+count    177859.000000
+mean          1.815208
+std           0.598962
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: sgnptit, dtype: float64
+
+Columna: stfdem
+count    177859.000000
+mean          8.470114
+std          15.584963
+min           0.000000
+25%           4.000000
+50%           6.000000
+75%           7.000000
+max          99.000000
+Name: stfdem, dtype: float64
+
+Columna: stfeco
+count    177859.000000
+mean          6.481370
+std          11.400919
+min           0.000000
+25%           3.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: stfeco, dtype: float64
+
+Columna: stfedu
+count    177859.000000
+mean          9.518900
+std          16.548817
+min           0.000000
+25%           5.000000
+50%           7.000000
+75%           8.000000
+max          99.000000
+Name: stfedu, dtype: float64
+
+Columna: stfgov
+count    175813.000000
+mean          6.673585
+std          13.619324
+min           0.000000
+25%           3.000000
+50%           5.000000
+75%           6.000000
+max          99.000000
+Name: stfgov, dtype: float64
+
+Columna: stfhlth
+count    177859.000000
+mean          6.216104
+std           8.306279
+min           0.000000
+25%           4.000000
+50%           6.000000
+75%           8.000000
+max          99.000000
+Name: stfhlth, dtype: float64
+
+Columna: stflife
+count    177859.000000
+mean          7.516881
+std           5.574597
+min           0.000000
+25%           6.000000
+50%           8.000000
+75%           9.000000
+max          99.000000
+Name: stflife, dtype: float64
+
+Columna: trstep
+count    177859.000000
+mean         12.388274
+std          24.039089
+min           0.000000
+25%           4.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: trstep, dtype: float64
+
+Columna: trstlgl
+count    177859.000000
+mean          7.208232
+std          12.313531
+min           0.000000
+25%           4.000000
+50%           6.000000
+75%           8.000000
+max          99.000000
+Name: trstlgl, dtype: float64
+
+Columna: trstplc
+count    177859.000000
+mean          7.192934
+std           8.273972
+min           0.000000
+25%           5.000000
+50%           7.000000
+75%           8.000000
+max          99.000000
+Name: trstplc, dtype: float64
+
+Columna: trstplt
+count    177859.000000
+mean          5.260510
+std          11.071178
+min           0.000000
+25%           2.000000
+50%           4.000000
+75%           6.000000
+max          99.000000
+Name: trstplt, dtype: float64
+
+Columna: trstprl
+count    177859.000000
+mean          6.739428
+std          13.024987
+min           0.000000
+25%           3.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: trstprl, dtype: float64
+
+Columna: trstprt
+count    161990.000000
+mean          5.511001
+std          12.005962
+min           0.000000
+25%           2.000000
+50%           4.000000
+75%           6.000000
+max          99.000000
+Name: trstprt, dtype: float64
+
+Columna: trstun
+count    177859.000000
+mean         12.877313
+std          23.493446
+min           0.000000
+25%           5.000000
+50%           6.000000
+75%           8.000000
+max          99.000000
+Name: trstun, dtype: float64
+
+Columna: trstsci
+count    15308.000000
+mean        17.708649
+std         28.965474
+min          0.000000
+25%          7.000000
+50%          8.000000
+75%          9.000000
+max         99.000000
+Name: trstsci, dtype: float64
+
+Columna: vote
+count    177859.000000
+mean          1.388111
+std           0.809033
+min           1.000000
+25%           1.000000
+50%           1.000000
+75%           2.000000
+max           9.000000
+Name: vote, dtype: float64
+
+Columna: wrkorg
+count    148941.000000
+mean          1.843509
+std           0.520369
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: wrkorg, dtype: float64
+
+Columna: wrkprty
+count    148941.000000
+mean          1.975064
+std           0.378020
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: wrkprty, dtype: float64
+
+Columna: imsmetn
+count    176198.000000
+mean          2.308658
+std           1.215990
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: imsmetn, dtype: float64
+
+Columna: imdfetn
+count    176198.000000
+mean          2.585693
+std           1.226755
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: imdfetn, dtype: float64
+
+Columna: impcntr
+count    177859.000000
+mean          2.677818
+std           1.257569
+min           1.000000
+25%           2.000000
+50%           3.000000
+75%           3.000000
+max           9.000000
+Name: impcntr, dtype: float64
+
+Columna: imbgeco
+count    177859.000000
+mean          7.981356
+std          15.259711
+min           0.000000
+25%           4.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: imbgeco, dtype: float64
+
+Columna: imueclt
+count    177859.000000
+mean          8.679263
+std          14.929978
+min           0.000000
+25%           5.000000
+50%           6.000000
+75%           8.000000
+max          99.000000
+Name: imueclt, dtype: float64
+
+Columna: imwbcnt
+count    177859.000000
+mean          8.222941
+std          15.733471
+min           0.000000
+25%           4.000000
+50%           5.000000
+75%           7.000000
+max          99.000000
+Name: imwbcnt, dtype: float64
+
+Columna: volunfp
+count    28918.000000
+mean         1.806868
+std          0.649226
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: volunfp, dtype: float64
+
+Columna: lrnobed
+count    28918.000000
+mean         2.466388
+std          1.223323
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: lrnobed, dtype: float64
+
+Columna: loylead
+count    28918.00000
+mean         3.24151
+std          1.26149
+min          1.00000
+25%          2.00000
+50%          3.00000
+75%          4.00000
+max          9.00000
+Name: loylead, dtype: float64
+
+Columna: donprty
+count    28918.000000
+mean         1.974410
+std          0.626861
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: donprty, dtype: float64
+
+Columna: aesfdrk
+count    177859.000000
+mean          1.991752
+std           0.920317
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: aesfdrk, dtype: float64
+
+Columna: atchctr
+count    61427.000000
+mean         8.150390
+std          5.631545
+min          0.000000
+25%          7.000000
+50%          8.000000
+75%         10.000000
+max         99.000000
+Name: atchctr, dtype: float64
+
+Columna: atcherp
+count    61427.000000
+mean         7.018624
+std          8.573267
+min          0.000000
+25%          5.000000
+50%          7.000000
+75%          8.000000
+max         99.000000
+Name: atcherp, dtype: float64
+
+Columna: blgetmg
+count    148941.000000
+mean          2.013227
+std           0.687786
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: blgetmg, dtype: float64
+
+Columna: brghmef
+count    48736.000000
+mean         3.947677
+std          1.725615
+min          1.000000
+25%          3.000000
+50%          3.000000
+75%          6.000000
+max          9.000000
+Name: brghmef, dtype: float64
+
+Columna: brghmwr
+count    48736.000000
+mean         3.088497
+std          0.940121
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: brghmwr, dtype: float64
+
+Columna: brncntr
+count    177859.000000
+mean          1.093158
+std           0.354151
+min           1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+max           9.000000
+Name: brncntr, dtype: float64
+
+Columna: crmvct
+count    177859.000000
+mean          1.831496
+std           0.504831
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: crmvct, dtype: float64
+
+Columna: crvctef
+count    48736.000000
+mean         4.223921
+std          1.764272
+min          1.000000
+25%          3.000000
+50%          3.000000
+75%          6.000000
+max          9.000000
+Name: crvctef, dtype: float64
+
+Columna: crvctwr
+count    48736.000000
+mean         3.305359
+std          0.870826
+min          1.000000
+25%          3.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: crvctwr, dtype: float64
+
+Columna: happy
+count    177859.000000
+mean          7.764004
+std           5.261831
+min           0.000000
+25%           7.000000
+50%           8.000000
+75%           9.000000
+max          99.000000
+Name: happy, dtype: float64
+
+Columna: health
+count    177859.000000
+mean          2.203881
+std           0.909279
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: health, dtype: float64
+
+Columna: sclmeet
+count    177859.000000
+mean          4.958388
+std           4.118286
+min           1.000000
+25%           4.000000
+50%           5.000000
+75%           6.000000
+max          99.000000
+Name: sclmeet, dtype: float64
+
+Columna: trrprsn
+count    32211.000000
+mean         1.949769
+std          1.226590
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: trrprsn, dtype: float64
+
+Columna: trrtort
+count    32211.000000
+mean         2.498339
+std          1.534521
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max          9.000000
+Name: trrtort, dtype: float64
+
+Columna: ccnthum
+count    45877.000000
+mean         5.417028
+std         12.255867
+min          1.000000
+25%          3.000000
+50%          3.000000
+75%          4.000000
+max         99.000000
+Name: ccnthum, dtype: float64
+
+Columna: wrclmch
+count    45877.000000
+mean         3.198465
+std          1.033192
+min          1.000000
+25%          3.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: wrclmch, dtype: float64
+
+Columna: vteurmmb
+count    50263.000000
+mean         7.263076
+std         20.196796
+min          1.000000
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max         99.000000
+Name: vteurmmb, dtype: float64
+
+Columna: vteubcmb
+count    7367.000000
+mean       27.923714
+std        41.958785
+min         1.000000
+25%         2.000000
+50%         2.000000
+75%        88.000000
+max        99.000000
+Name: vteubcmb, dtype: float64
+
+Columna: vteumbgb
+count    0.0
+mean     NaN
+std      NaN
+min      NaN
+25%      NaN
+50%      NaN
+75%      NaN
+max      NaN
+Name: vteumbgb, dtype: float64
+
+Columna: ablrtr
+count    15765.000000
+mean        23.328195
+std         29.870249
+min          0.000000
+25%          2.000000
+50%          7.000000
+75%         66.000000
+max         99.000000
+Name: ablrtr, dtype: float64
+
+Columna: brwmny
+count    81198.000000
+mean         3.022611
+std          1.643634
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max          9.000000
+Name: brwmny, dtype: float64
+
+Columna: dvrcdev
+count    63012.000000
+mean         3.369104
+std          1.985295
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          6.000000
+max          9.000000
+Name: dvrcdev, dtype: float64
+
+Columna: dvrcdeva
+count    113186.000000
+mean          1.887177
+std           0.565873
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: dvrcdeva, dtype: float64
+
+Columna: edufld
+count    48804.000000
+mean        12.198693
+std         25.016198
+min          1.000000
+25%          1.000000
+50%          4.000000
+75%          9.000000
+max         99.000000
+Name: edufld, dtype: float64
+
+Columna: edulvla
+count    64673.000000
+mean         3.395544
+std          5.619596
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          5.000000
+max         99.000000
+Name: edulvla, dtype: float64
+
+Columna: edulvlb
+count    113186.000000
+mean        428.489893
+std         587.612132
+min           0.000000
+25%         222.000000
+50%         321.000000
+75%         610.000000
+max        9999.000000
+Name: edulvlb, dtype: float64
+
+Columna: edulvlfa
+count    64673.000000
+mean         8.552812
+std         22.357173
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: edulvlfa, dtype: float64
+
+Columna: edulvlfb
+count    107140.000000
+mean       1007.001727
+std        2387.734834
+min           0.000000
+25%         113.000000
+50%         229.000000
+75%         423.000000
+max        9999.000000
+Name: edulvlfb, dtype: float64
+
+Columna: edulvlma
+count    64673.000000
+mean         6.499575
+std         18.979363
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: edulvlma, dtype: float64
+
+Columna: edulvlmb
+count    107140.000000
+mean        725.171729
+std        1941.602470
+min           0.000000
+25%         113.000000
+50%         213.000000
+75%         323.000000
+max        9999.000000
+Name: edulvlmb, dtype: float64
+
+Columna: eduyrs
+count    177859.000000
+mean         13.932640
+std           9.359499
+min           0.000000
+25%          10.000000
+50%          13.000000
+75%          16.000000
+max          99.000000
+Name: eduyrs, dtype: float64
+
+Columna: eisced
+count    177859.000000
+mean          3.883295
+std           5.713392
+min           0.000000
+25%           2.000000
+50%           4.000000
+75%           5.000000
+max          99.000000
+Name: eisced, dtype: float64
+
+Columna: lvgptne
+count    61116.000000
+mean         2.220793
+std          1.411322
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max          9.000000
+Name: lvgptne, dtype: float64
+
+Columna: lvgptnea
+count    110610.000000
+mean          2.242193
+std           1.553550
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           2.000000
+max           9.000000
+Name: lvgptnea, dtype: float64
+
+Columna: impfree
+count    157746.000000
+mean          2.315285
+std           1.409742
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: impfree, dtype: float64
+
+Columna: impfreea
+count    13610.000000
+mean         2.861499
+std          7.666059
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: impfreea, dtype: float64
+
+Columna: impsafe
+count    157746.000000
+mean          2.480374
+std           1.488033
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: impsafe, dtype: float64
+
+Columna: impsafea
+count    13610.000000
+mean         3.041514
+std          7.488270
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: impsafea, dtype: float64
+
+Columna: ipadvnt
+count    157746.000000
+mean          3.979657
+std           1.580448
+min           1.000000
+25%           3.000000
+50%           4.000000
+75%           5.000000
+max           9.000000
+Name: ipadvnt, dtype: float64
+
+Columna: ipadvnta
+count    13610.000000
+mean         4.660470
+std          8.215224
+min          1.000000
+25%          3.000000
+50%          4.000000
+75%          5.000000
+max         99.000000
+Name: ipadvnta, dtype: float64
+
+Columna: ipbhprp
+count    157746.000000
+mean          2.731511
+std           1.484425
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: ipbhprp, dtype: float64
+
+Columna: ipbhprpa
+count    13610.000000
+mean         3.575459
+std          8.801353
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: ipbhprpa, dtype: float64
+
+Columna: ipcrtiv
+count    157746.000000
+mean          2.762847
+std           1.515041
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: ipcrtiv, dtype: float64
+
+Columna: ipcrtiva
+count    13610.000000
+mean         3.388464
+std          8.138042
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: ipcrtiva, dtype: float64
+
+Columna: ipeqopt
+count    157746.000000
+mean          2.217102
+std           1.385219
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: ipeqopt, dtype: float64
+
+Columna: ipeqopta
+count    13610.000000
+mean         2.710140
+std          7.725684
+min          1.000000
+25%          1.000000
+50%          2.000000
+75%          2.000000
+max         99.000000
+Name: ipeqopta, dtype: float64
+
+Columna: ipgdtim
+count    157746.000000
+mean          3.206858
+std           1.611154
+min           1.000000
+25%           2.000000
+50%           3.000000
+75%           4.000000
+max           9.000000
+Name: ipgdtim, dtype: float64
+
+Columna: ipgdtima
+count    13610.000000
+mean         3.871785
+std          8.199149
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max         99.000000
+Name: ipgdtima, dtype: float64
+
+Columna: iprspot
+count    157746.000000
+mean          3.458376
+std           1.574382
+min           1.000000
+25%           2.000000
+50%           3.000000
+75%           5.000000
+max           9.000000
+Name: iprspot, dtype: float64
+
+Columna: iprspota
+count    13610.000000
+mean         4.418663
+std          9.274991
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max         99.000000
+Name: iprspota, dtype: float64
+
+Columna: ipstrgv
+count    157746.000000
+mean          2.548515
+std           1.557236
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: ipstrgv, dtype: float64
+
+Columna: ipstrgva
+count    13610.000000
+mean         3.690154
+std         10.287285
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: ipstrgva, dtype: float64
+
+Columna: ipudrst
+count    157746.000000
+mean          2.484862
+std           1.376271
+min           1.000000
+25%           2.000000
+50%           2.000000
+75%           3.000000
+max           9.000000
+Name: ipudrst, dtype: float64
+
+Columna: ipudrsta
+count    13610.000000
+mean         3.175239
+std          8.438742
+min          1.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max         99.000000
+Name: ipudrsta, dtype: float64
