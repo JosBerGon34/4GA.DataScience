@@ -14,5 +14,6 @@ configsql.cfg
 .nuevo_entorno
 .venvxgboost
 .venvSVM
-
+*.sav
 *.csv
+*.dta
