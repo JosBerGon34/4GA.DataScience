@@ -14,4 +14,5 @@ configsql.cfg
 .nuevo_entorno
 .venvxgboost
 .venvSVM
-/4GA.Datascience/4GA.DataScience/src/PASO5/VariablesTarget/
+
+*.csv
